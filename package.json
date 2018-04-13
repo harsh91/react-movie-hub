@@ -1,6 +1,7 @@
 {
   "name": "react-movie-hub",
   "version": "0.1.0",
+  "homepage" : "https://harsh91.github.io/react-movie-hub",
   "private": true,
   "dependencies": {
     "downshift": "^1.31.3",
