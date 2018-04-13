@@ -1,0 +1,193 @@
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  width: 240px;
+  height: 30px;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 51px;
+  width: 280px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#react-autowhatever-1 {
+  width: 100%;
+  background-color: #263238;
+}
+
+.react-autosuggest__suggestions-list li {
+  color: white;
+}
+
+.react-autosuggest__suggestions-list li:hover {
+  color: #2e4957;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  background-image: linear-gradient(rgba(77, 136, 165, 0.5) 10%,rgba(0,0,0,.1) 40%,rgba(77, 136, 165, 0.5) 98%) !important;
+  background-attachment: fixed !important;
+}
+
+.header-reverse-margin {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.movie-image {
+  padding: 0px;
+}
+
+.movie-detail {
+  height: 100%;
+  background-color: #2e4957;
+  font-family: "Courier New", Courier, monospace;
+  opacity: 0.95;
+}
+
+.blue-color {
+  color: #268fff;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.light-blue-color {
+  color: #b9dfef
+}
+
+.small-caps {
+  font-variant-caps: petite-caps;
+}
+
+.movie-title {
+  font-size: 4em;
+}
+
+label {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.row-eq-height [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.row-eq-height {
+  overflow: hidden;
+}
+
+.header {
+  margin: 0px;
+  padding: 10px;
+  background-color: #263238;
+  border: 0px;
+  border-bottom: 4px solid #268fff;
+}
+
+.img-brand {
+  width: 60px;
+  cursor: pointer;
+}
+
+.movie-search-box {
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid white;
+  padding: 25px 10px 25px 10px;
+  font-size: 1.5em;
+  margin-top: 5px;
+  color: white;
+  width: 100%;
+}
+
+.movie-search-box: hover {
+  background: transparent;
+  box-shadow: 0px 0px 0px 0px transparent;
+}
+
+.autocomplete-ul {
+  position: absolute;
+  width: -moz-available;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  z-index: 1;
+}
+
+.autocomplete-ul div {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.autocomplete-menu-item {
+  background-color: #2e4957;
+  font-weight: normal;
+}
+
+.autocomplete-menu-item:hover {
+  background-color: gray;
+  font-weight: bold;
+}
+
+.website-tagline {
+  font-size: 2em;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+@media (max-width: 500px) {
+  .movie-title {
+    font-size: 3em;
+  }
+}
